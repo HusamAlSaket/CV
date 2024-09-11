@@ -1,0 +1,51 @@
+body{
+    background-color: palegoldenrod;
+    font-size: medium;
+
+}
+.myimage{
+    background: url(images/143900250.jpg);
+    width: 100px;
+    height: 100px;
+    border:maroon 5px solid;
+    border-radius: 50px;
+    background-size: 100% 100%;
+}
+
+.one{
+    color: #0d6efd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.tow {
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+.three{
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.four{
+    color: firebrick;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.five{
+    color: darkorange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.six{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hide{
+    display: none;
+}
+.mydiv:hover +.hide{
+    display: block;
+    color: red;
+}
+
+   
